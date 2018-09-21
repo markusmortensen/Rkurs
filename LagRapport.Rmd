@@ -1,0 +1,71 @@
+---
+title: "Rapport"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+
+library(tidyverse)
+load("germancredit.rds")
+
+
+```
+
+## Min rapport
+### Summary tables
+Her kan dere sette inn summary-tables
+
+```{r}
+
+```
+
+
+
+### Plots
+Her kan dere sette inn plots. Legg inn nye bolker om nødvendig (ctrl-alt-i)
+
+```{r}
+
+
+```
+
+Se også dette plottet:
+
+```{r}
+
+```
+
+#### Tab-plots {.tabset}
+Man kan også legge plots i et tabset, slik at plottene kommer frem når man klikker på de istedenfor å havne nedover på siden.
+
+##### Tab 1
+```{r}
+
+```
+
+##### Tab 2
+```{r}
+
+```
+
+##### Tab 3
+```{r}
+
+```
+
+
+### Modeller
+Vi har laget en lm-modell som forklarer Saldo med følgende resultat:
+
+```{r}
+
+```
+
+Vi har laget en glm-modell som forklarer kredittverdighet med følgende resultat:
+
+```{r}
+
+```
+
